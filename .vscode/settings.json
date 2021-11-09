@@ -1,0 +1,12 @@
+{
+    "git.ignoreLimitWarning": true,
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 12,
+    "prettier.tabWidth": 4,
+    "prettier.arrowParens": "avoid",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

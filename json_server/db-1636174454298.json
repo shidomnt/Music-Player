@@ -1,0 +1,792 @@
+{
+  "Customers": [
+    {
+      "MAKH": "CINOTEC",
+      "TENKH": "ĐIỆN TOÁN SÀI GÒN",
+      "DIACHI": "43 Yết kiêu P 6 Q3",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "7931752"
+    },
+    {
+      "MAKH": "COMECO",
+      "TENKH": "VẬT TƯ THIẾT BỊ GTVT",
+      "DIACHI": "226 AnDương Vương P11 Q11",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8456781"
+    },
+    {
+      "MAKH": "FAHASA",
+      "TENKH": "PHÁT HÀNH SÁCH SÀI GÒN",
+      "DIACHI": "12 Thuận kiều Q5",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8452792"
+    },
+    {
+      "MAKH": "FISC",
+      "TENKH": "DỊCH VỤ ĐẦU TƯ NƯỚC NGOÀI",
+      "DIACHI": "31 Trương Định P6 Q1",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8458247"
+    },
+    {
+      "MAKH": "HAN",
+      "TENKH": "QUỐC CƯỜNG GIA LAI",
+      "DIACHI": "TẠ QUANG BỬU",
+      "THANHPHO": "Bắc Ninh",
+      "DIENTHOAI": "0041677544"
+    },
+    {
+      "MAKH": "HUNSAN",
+      "TENKH": "HỪNG SÁNG",
+      "DIACHI": "175 Lý Thường Kiệt",
+      "THANHPHO": "Quảng Ninh",
+      "DIENTHOAI": "5465487"
+    },
+    {
+      "MAKH": "LIXCO",
+      "TENKH": "BỘT GIẶT LIX",
+      "DIACHI": "79 Bàn Cờ P3 Q5",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8952187"
+    },
+    {
+      "MAKH": "PICIMCO",
+      "TENKH": "Công ty TM Mặt trời mới",
+      "DIACHI": "46 Phùng Khoang",
+      "THANHPHO": "Hà Nội"
+    },
+    {
+      "MAKH": "PMC",
+      "TENKH": "Công ty Cao Su Việt Nam",
+      "DIACHI": "145 Nguyễn Trãi Thanh Xuân",
+      "THANHPHO": "Hà Nội",
+      "DIENTHOAI": "0849876543"
+    },
+    {
+      "MAKH": "SAFICO",
+      "TENKH": "THUỶ SẢN XUẤT KHẨU",
+      "DIACHI": "47 Bải sậy P1 Q11",
+      "THANHPHO": "TP.HCM"
+    },
+    {
+      "MAKH": "SJC",
+      "TENKH": "VÀNG BẠC ĐÁ QUÝ TPHCM",
+      "DIACHI": "350 CMT8 P12 Q3",
+      "THANHPHO": "Hưng Yên",
+      "DIENTHOAI": "8543543"
+    },
+    {
+      "MAKH": "TAFACO",
+      "TENKH": "THƯƠNG MẠI TẤN PHÁT",
+      "DIACHI": "4 Trần PhũP Q5",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8754875"
+    },
+    {
+      "MAKH": "THADACO",
+      "TENKH": "XÂY DỰNG THÀNH ĐẠT",
+      "DIACHI": "6E An Bình Q5",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "5465454"
+    },
+    {
+      "MAKH": "TRACODI",
+      "TENKH": "ĐẦU TƯ PHÁT TRIỂN GTVT",
+      "DIACHI": "343 Nhật Tảo Q10",
+      "THANHPHO": "Thái Bình",
+      "DIENTHOAI": "5321321"
+    },
+    {
+      "MAKH": "TRANACO",
+      "TENKH": "DỊCH VỤ VẬN TẢI Q 3",
+      "DIACHI": "156 Lê Đại HànhP7 Q10",
+      "THANHPHO": "TP.HCM",
+      "DIENTHOAI": "8654635"
+    }
+  ],
+  "Orders": [
+    {
+      "MAHD": "10148",
+      "LOAIHD": "X",
+      "MAKH": "FISC",
+      "MANV": 1,
+      "NGAYLAPHD": "2021-10-06T00:00:00",
+      "NGAYGNHANG": "2021-10-06T00:00:00"
+    },
+    {
+      "MAHD": "10150",
+      "LOAIHD": "T",
+      "MAKH": "HUNSAN",
+      "MANV": 4,
+      "NGAYLAPHD": "2004-04-03T00:00:00",
+      "NGAYGNHANG": "2004-06-29T00:00:00"
+    },
+    {
+      "MAHD": "10156",
+      "LOAIHD": "C",
+      "MAKH": "FISC",
+      "MANV": 4,
+      "NGAYLAPHD": "2004-01-12T00:00:00",
+      "NGAYGNHANG": "2004-09-05T00:00:00"
+    },
+    {
+      "MAHD": "10157",
+      "LOAIHD": "X",
+      "MAKH": "SAFICO",
+      "MANV": 2,
+      "NGAYLAPHD": "2004-01-10T00:00:00",
+      "NGAYGNHANG": "2004-05-20T00:00:00"
+    },
+    {
+      "MAHD": "10159",
+      "LOAIHD": "N",
+      "MAKH": "CINOTEC",
+      "MANV": 8,
+      "NGAYLAPHD": "2004-01-04T00:00:00",
+      "NGAYGNHANG": "2004-07-06T00:00:00"
+    },
+    {
+      "MAHD": "10162",
+      "LOAIHD": "N",
+      "MAKH": "TRANACO",
+      "MANV": 7,
+      "NGAYLAPHD": "2004-01-25T00:00:00",
+      "NGAYGNHANG": "2004-07-10T00:00:00"
+    },
+    {
+      "MAHD": "10172",
+      "LOAIHD": "T",
+      "MAKH": "TAFACO",
+      "MANV": 9,
+      "NGAYLAPHD": "2004-08-12T00:00:00",
+      "NGAYGNHANG": "2004-09-17T00:00:00"
+    },
+    {
+      "MAHD": "10175",
+      "LOAIHD": "C",
+      "MAKH": "TRANACO",
+      "MANV": 9,
+      "NGAYLAPHD": "2004-05-03T00:00:00",
+      "NGAYGNHANG": "2004-08-07T00:00:00"
+    },
+    {
+      "MAHD": "10183",
+      "LOAIHD": "N",
+      "MAKH": "TRANACO",
+      "MANV": 2,
+      "NGAYLAPHD": "2004-01-01T00:00:00",
+      "NGAYGNHANG": "2004-06-02T00:00:00"
+    },
+    {
+      "MAHD": "10196",
+      "LOAIHD": "N",
+      "MAKH": "SJC",
+      "MANV": 1,
+      "NGAYLAPHD": "2004-06-28T00:00:00",
+      "NGAYGNHANG": "2004-01-07T00:00:00"
+    },
+    {
+      "MAHD": "10207",
+      "LOAIHD": "N",
+      "MAKH": "SJC",
+      "MANV": 2,
+      "NGAYLAPHD": "2004-05-12T00:00:00",
+      "NGAYGNHANG": "2004-06-10T00:00:00"
+    },
+    {
+      "MAHD": "10208",
+      "LOAIHD": "X",
+      "MAKH": "TRACODI",
+      "MANV": 8,
+      "NGAYLAPHD": "2004-08-12T00:00:00",
+      "NGAYGNHANG": "2004-05-17T00:00:00"
+    },
+    {
+      "MAHD": "10221",
+      "LOAIHD": "T",
+      "MAKH": "TRACODI",
+      "MANV": 11,
+      "NGAYLAPHD": "2004-08-02T00:00:00",
+      "NGAYGNHANG": "2004-09-30T00:00:00"
+    },
+    {
+      "MAHD": "10224",
+      "LOAIHD": "X",
+      "MAKH": "SAFICO",
+      "MANV": 7,
+      "NGAYLAPHD": "2004-05-02T00:00:00",
+      "NGAYGNHANG": "2004-05-28T00:00:00"
+    },
+    {
+      "MAHD": "10225",
+      "LOAIHD": "X",
+      "MAKH": "COMECO",
+      "MANV": 2,
+      "NGAYLAPHD": "2004-05-10T00:00:00",
+      "NGAYGNHANG": "2004-05-20T00:00:00"
+    },
+    {
+      "MAHD": "10226",
+      "LOAIHD": "N",
+      "MAKH": "FAHASA",
+      "MANV": 3,
+      "NGAYLAPHD": "2004-09-11T00:00:00",
+      "NGAYGNHANG": "2004-09-30T00:00:00"
+    },
+    {
+      "MAHD": "10227",
+      "LOAIHD": "X",
+      "MAKH": "SAFICO",
+      "MANV": 8,
+      "NGAYLAPHD": "2004-01-10T00:00:00",
+      "NGAYGNHANG": "2004-05-12T00:00:00"
+    },
+    {
+      "MAHD": "10228",
+      "LOAIHD": "C",
+      "MAKH": "HUNSAN",
+      "MANV": 2,
+      "NGAYLAPHD": "2004-02-05T00:00:00",
+      "NGAYGNHANG": "2004-02-04T00:00:00"
+    },
+    {
+      "MAHD": "10230",
+      "LOAIHD": "T",
+      "MAKH": "HUNSAN",
+      "MANV": 2,
+      "NGAYLAPHD": "2021-08-06T00:00:00",
+      "NGAYGNHANG": "2021-08-06T00:00:00"
+    },
+    {
+      "MAHD": "10238",
+      "LOAIHD": "T",
+      "MAKH": "LIXCO",
+      "MANV": 7,
+      "NGAYLAPHD": "2004-08-02T00:00:00",
+      "NGAYGNHANG": "2004-08-30T00:00:00"
+    },
+    {
+      "MAHD": "10252",
+      "LOAIHD": "X",
+      "MAKH": "TRACODI",
+      "MANV": 3,
+      "NGAYLAPHD": "2004-02-15T00:00:00",
+      "NGAYGNHANG": "2004-03-11T00:00:00"
+    },
+    {
+      "MAHD": "10255",
+      "LOAIHD": "X",
+      "MAKH": "SJC",
+      "MANV": 1,
+      "NGAYLAPHD": "2004-08-14T00:00:00",
+      "NGAYGNHANG": "2004-09-12T00:00:00"
+    },
+    {
+      "MAHD": "10799",
+      "LOAIHD": "X",
+      "MAKH": "HUNSAN",
+      "MANV": 9,
+      "NGAYLAPHD": "2016-09-19T00:00:00"
+    },
+    {
+      "MAHD": "20019",
+      "LOAIHD": "N",
+      "MAKH": "THADACO",
+      "MANV": 1,
+      "NGAYLAPHD": "2004-01-25T00:00:00"
+    }
+  ],
+  "Products": [
+    {
+      "MASP": 1,
+      "TENSP": "RƯỢU",
+      "DONVITINH": "LỌ",
+      "DONGIA": 62.5,
+      "SLTON": 4
+    },
+    {
+      "MASP": 2,
+      "TENSP": "GIA VỊ",
+      "DONVITINH": "THÙNG",
+      "DONGIA": 40,
+      "SLTON": 2
+    },
+    {
+      "MASP": 3,
+      "TENSP": "BÁNH KEM",
+      "DONVITINH": "CÁI",
+      "DONGIA": 2,
+      "SLTON": 15
+    },
+    {
+      "MASP": 4,
+      "TENSP": "BƠ",
+      "DONVITINH": "KG",
+      "DONGIA": 15,
+      "SLTON": 5
+    },
+    {
+      "MASP": 5,
+      "TENSP": "BÁNH MÌ",
+      "DONVITINH": "CÁI",
+      "DONGIA": 1,
+      "SLTON": 20
+    },
+    {
+      "MASP": 6,
+      "TENSP": "NEM",
+      "DONVITINH": "KG",
+      "DONGIA": 10,
+      "SLTON": 20
+    },
+    {
+      "MASP": 7,
+      "TENSP": "TÁO",
+      "DONVITINH": "KG",
+      "DONGIA": 5,
+      "SLTON": 28
+    },
+    {
+      "MASP": 8,
+      "TENSP": "CÁ HỘP",
+      "DONVITINH": "THÙNG",
+      "DONGIA": 62.5,
+      "SLTON": 5
+    },
+    {
+      "MASP": 9,
+      "TENSP": "KẸO",
+      "DONVITINH": "THÙNG",
+      "DONGIA": 12,
+      "SLTON": 10
+    },
+    {
+      "MASP": 10,
+      "TENSP": "GẠO",
+      "DONVITINH": "KG",
+      "DONGIA": 2,
+      "SLTON": 50
+    },
+    {
+      "MASP": 11,
+      "TENSP": "NẾP",
+      "DONVITINH": "KG",
+      "DONGIA": 3,
+      "SLTON": 60
+    },
+    {
+      "MASP": 12,
+      "TENSP": "RƯỢU",
+      "DONVITINH": "LỌ",
+      "DONGIA": 70,
+      "SLTON": 40
+    }
+  ],
+  "Order-Product": [
+    {
+      "MAHD": "10148",
+      "MASP": 3,
+      "SOLUONG": 20,
+      "DONGIA": 2.2
+    },
+    {
+      "MAHD": "10148",
+      "MASP": 4,
+      "SOLUONG": 30,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10148",
+      "MASP": 9,
+      "SOLUONG": 20,
+      "DONGIA": 13.2
+    },
+    {
+      "MAHD": "10148",
+      "MASP": 10,
+      "SOLUONG": 10,
+      "DONGIA": 45
+    },
+    {
+      "MAHD": "10150",
+      "MASP": 2,
+      "SOLUONG": 22,
+      "DONGIA": 44
+    },
+    {
+      "MAHD": "10150",
+      "MASP": 4,
+      "SOLUONG": 10,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10156",
+      "MASP": 8,
+      "SOLUONG": 20,
+      "DONGIA": 68.75
+    },
+    {
+      "MAHD": "10157",
+      "MASP": 3,
+      "SOLUONG": 4,
+      "DONGIA": 2.2
+    },
+    {
+      "MAHD": "10157",
+      "MASP": 4,
+      "SOLUONG": 50,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10159",
+      "MASP": 1,
+      "SOLUONG": 30,
+      "DONGIA": 253.33
+    },
+    {
+      "MAHD": "10159",
+      "MASP": 7,
+      "SOLUONG": 2,
+      "DONGIA": 5.5
+    },
+    {
+      "MAHD": "10162",
+      "MASP": 1,
+      "SOLUONG": 5,
+      "DONGIA": 253.55
+    },
+    {
+      "MAHD": "10162",
+      "MASP": 2,
+      "SOLUONG": 10,
+      "DONGIA": 44
+    },
+    {
+      "MAHD": "10162",
+      "MASP": 7,
+      "SOLUONG": 12,
+      "DONGIA": 5.5
+    },
+    {
+      "MAHD": "10172",
+      "MASP": 5,
+      "SOLUONG": 25,
+      "DONGIA": 1
+    },
+    {
+      "MAHD": "10175",
+      "MASP": 8,
+      "SOLUONG": 20,
+      "DONGIA": 68.75
+    },
+    {
+      "MAHD": "10183",
+      "MASP": 4,
+      "SOLUONG": 12,
+      "DONGIA": 68.75
+    },
+    {
+      "MAHD": "10183",
+      "MASP": 5,
+      "SOLUONG": 20,
+      "DONGIA": 1.1
+    },
+    {
+      "MAHD": "10183",
+      "MASP": 6,
+      "SOLUONG": 12,
+      "DONGIA": 11
+    },
+    {
+      "MAHD": "10196",
+      "MASP": 4,
+      "SOLUONG": 12,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10196",
+      "MASP": 9,
+      "SOLUONG": 50,
+      "DONGIA": 13.2
+    },
+    {
+      "MAHD": "10207",
+      "MASP": 5,
+      "SOLUONG": 15,
+      "DONGIA": 1.1
+    },
+    {
+      "MAHD": "10208",
+      "MASP": 7,
+      "SOLUONG": 20,
+      "DONGIA": 5.5
+    },
+    {
+      "MAHD": "10224",
+      "MASP": 9,
+      "SOLUONG": 22,
+      "DONGIA": 13.2
+    },
+    {
+      "MAHD": "10225",
+      "MASP": 1,
+      "SOLUONG": 10,
+      "DONGIA": 253.55
+    },
+    {
+      "MAHD": "10225",
+      "MASP": 4,
+      "SOLUONG": 7,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10225",
+      "MASP": 5,
+      "SOLUONG": 55,
+      "DONGIA": 1.1
+    },
+    {
+      "MAHD": "10226",
+      "MASP": 4,
+      "SOLUONG": 21,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10226",
+      "MASP": 6,
+      "SOLUONG": 110,
+      "DONGIA": 11
+    },
+    {
+      "MAHD": "10227",
+      "MASP": 2,
+      "SOLUONG": 15,
+      "DONGIA": 44
+    },
+    {
+      "MAHD": "10228",
+      "MASP": 4,
+      "SOLUONG": 45,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10228",
+      "MASP": 5,
+      "SOLUONG": 15,
+      "DONGIA": 1.1
+    },
+    {
+      "MAHD": "10228",
+      "MASP": 7,
+      "SOLUONG": 28,
+      "DONGIA": 5.5
+    },
+    {
+      "MAHD": "10230",
+      "MASP": 6,
+      "SOLUONG": 30,
+      "DONGIA": 11
+    },
+    {
+      "MAHD": "10238",
+      "MASP": 1,
+      "SOLUONG": 4,
+      "DONGIA": 253.55
+    },
+    {
+      "MAHD": "10238",
+      "MASP": 2,
+      "SOLUONG": 10,
+      "DONGIA": 44
+    },
+    {
+      "MAHD": "10238",
+      "MASP": 3,
+      "SOLUONG": 12,
+      "DONGIA": 2.2
+    },
+    {
+      "MAHD": "10238",
+      "MASP": 9,
+      "SOLUONG": 20,
+      "DONGIA": 13.2
+    },
+    {
+      "MAHD": "10252",
+      "MASP": 2,
+      "SOLUONG": 100,
+      "DONGIA": 44
+    },
+    {
+      "MAHD": "10252",
+      "MASP": 3,
+      "SOLUONG": 40,
+      "DONGIA": 2.2
+    },
+    {
+      "MAHD": "10252",
+      "MASP": 4,
+      "SOLUONG": 25,
+      "DONGIA": 16.5
+    },
+    {
+      "MAHD": "10255",
+      "MASP": 5,
+      "SOLUONG": 55,
+      "DONGIA": 1.1
+    },
+    {
+      "MAHD": "20019",
+      "MASP": 7,
+      "SOLUONG": 44,
+      "DONGIA": 12
+    }
+  ],
+  "Staffs": [
+    {
+      "MANV": 1,
+      "HONV": "NGUYỄN NGỌC",
+      "TENNV": "NGA",
+      "PHAI": false,
+      "NGAYSINH": "1964-12-10T00:00:00",
+      "NOISINH": "Hà Nội",
+      "DIACHI": "13Hùng Vương P4 Q5",
+      "DIENTHOAI": "5465465"
+    },
+    {
+      "MANV": 2,
+      "HONV": "HÀ VĨNH",
+      "TENNV": "PHÁT",
+      "PHAI": true,
+      "NGAYSINH": "1979-12-07T00:00:00",
+      "NOISINH": "Quảng Ninh",
+      "DIACHI": "89 Đồng Khởi Q1",
+      "DIENTHOAI": "8767461"
+    },
+    {
+      "MANV": 3,
+      "HONV": "TRẦN TUYẾT",
+      "TENNV": "OANH",
+      "PHAI": false,
+      "NGAYSINH": "1967-02-27T00:00:00",
+      "NOISINH": "Côn Đảo",
+      "DIACHI": "45Lê Quí Đôn Q3",
+      "DIENTHOAI": "5465465"
+    },
+    {
+      "MANV": 4,
+      "HONV": "NGUYỄN KIM",
+      "TENNV": "NGỌC",
+      "PHAI": false,
+      "NGAYSINH": "1980-12-25T00:00:00",
+      "NOISINH": "Côn Đảo",
+      "DIACHI": "187 Hậu Giang P5Q6",
+      "DIENTHOAI": "5654654"
+    },
+    {
+      "MANV": 5,
+      "HONV": "TRƯƠNG DUY",
+      "TENNV": "HÙNG",
+      "PHAI": true,
+      "NGAYSINH": "1982-10-10T00:00:00",
+      "NOISINH": "Bà Rịa Vũng Tàu",
+      "DIACHI": "77 Trương ĐịnhQ1",
+      "DIENTHOAI": "5871544"
+    },
+    {
+      "MANV": 6,
+      "HONV": "LƯƠNG BÁ",
+      "TENNV": "THẮNG",
+      "PHAI": true,
+      "NGAYSINH": "1968-12-10T00:00:00",
+      "NOISINH": "Quảng Ninh",
+      "DIACHI": "92 Lê ThánhTônQ1",
+      "DIENTHOAI": "8754165"
+    },
+    {
+      "MANV": 7,
+      "HONV": "LÂM SƠN",
+      "TENNV": "HOÀNG",
+      "PHAI": true,
+      "NGAYSINH": "1978-03-02T00:00:00",
+      "NOISINH": "Hà Nội",
+      "DIACHI": "45 Ký Con Q1",
+      "DIENTHOAI": "8231231"
+    },
+    {
+      "MANV": 8,
+      "HONV": "NGUYỄN MINH",
+      "TENNV": "HỒNG",
+      "PHAI": true,
+      "NGAYSINH": "1968-10-30T00:00:00",
+      "NOISINH": "Bà Rịa Vũng Tàu",
+      "DIACHI": "22 Lạc Long Quân Q10",
+      "DIENTHOAI": "7845138"
+    },
+    {
+      "MANV": 9,
+      "HONV": "VƯƠNG NGỌC",
+      "TENNV": "NGA",
+      "PHAI": false,
+      "NGAYSINH": "1967-12-10T00:00:00",
+      "NOISINH": "Hà N?i",
+      "DIACHI": "227 Hai Bà Trưng Q1",
+      "DIENTHOAI": "7784184"
+    },
+    {
+      "MANV": 10,
+      "HONV": "NGUYỄNTHỊ",
+      "TENNV": "MAI",
+      "PHAI": false,
+      "NGAYSINH": "1967-11-10T00:00:00",
+      "NOISINH": "Hà N?i",
+      "DIACHI": "12Nguỹên Chí Thanh Q3",
+      "DIENTHOAI": "3451365"
+    },
+    {
+      "MANV": 11,
+      "HONV": "LÊ VĂN",
+      "TENNV": "HÙNG",
+      "PHAI": true,
+      "NGAYSINH": "1957-03-06T00:00:00",
+      "DIACHI": "56Nguyễn TrãiQ1",
+      "DIENTHOAI": "5745785"
+    },
+    {
+      "MANV": 12,
+      "HONV": "NGUYỄN THỊ",
+      "TENNV": "HOA",
+      "PHAI": false,
+      "NGAYSINH": "1966-10-10T00:00:00",
+      "DIACHI": "12 Nguyễn Trãi Q1",
+      "DIENTHOAI": "6465465"
+    },
+    {
+      "MANV": 13,
+      "HONV": "Hoàng Thu",
+      "TENNV": "Hiền",
+      "PHAI": false,
+      "NGAYSINH": "1990-10-01T00:00:00",
+      "NOISINH": "Hà Nội",
+      "DIACHI": "123 Trần Nhân Tông"
+    },
+    {
+      "MANV": 14,
+      "HONV": "Lâm Vỹ",
+      "TENNV": "Hà",
+      "PHAI": false,
+      "NGAYSINH": "1998-04-06T00:00:00",
+      "NOISINH": "An Giang"
+    },
+    {
+      "MANV": 18,
+      "HONV": "Nguyễn Hồng",
+      "TENNV": "Hạnh",
+      "PHAI": false,
+      "NGAYSINH": "1997-06-01T00:00:00",
+      "NOISINH": "An Giang",
+      "DIACHI": "123 Đường Cần Giuộc",
+      "DIENTHOAI": "0847675434"
+    }
+  ]
+}

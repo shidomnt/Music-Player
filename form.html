@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thêm Bài Hát</title>
+        <style>
+            body {
+                display: flex;
+            }
+            div {
+                margin: auto;
+            }
+            label {
+                min-width: 80px;
+                display: inline-block;
+                margin: 8px;
+            }
+            input {
+                padding: 5px;
+            }
+            button {
+                margin: 16px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <!-- <label for="">id</label>
+            <input type="number" name="" id="" /><br /> -->
+            <label for="">name</label>
+            <input required type="text" name="name" id="" /><br />
+            <label for="">singer</label>
+            <input required type="text" name="singer" id="" /><br />
+            <label for="">band</label>
+            <input type="text" name="band" id="" /><br />
+            <label for="">url</label>
+            <input required type="text" name="url" id="" /><br />
+            <label for="">banner-url</label>
+            <input required type="text" name="banner-url" id="" /><br />
+            <button type="submit" onclick="myFunction()">Thêm bài hát</button>
+        </div>
+        <script>
+            let songsApi = "http://192.168.1.152:3000/songs";
+            function request(api, method = "GET", raw) {
+                let myBody = JSON.stringify(raw);
+                let myHeaders = {
+                    "Content-Type": "application/json",
+                };
+                let requestOptions = {
+                    method: method,
+                    headers: myHeaders,
+                    body: myBody ?? null,
+                };
+                return fetch(api, requestOptions).then(response =>
+                    response.json()
+                );
+            }
+            function myFunction(btn) {
+                let listInputs = document.getElementsByTagName("input");
+                console.log(listInputs[4].value);
+                let raw = {
+                    name: listInputs[0].value,
+                    singer: listInputs[1].value,
+                    band:
+                        listInputs[2].value == ""
+                            ? "Nhóm Nhạc"
+                            : listInputs[2].value,
+                    url: listInputs[3].value,
+                    "banner-url": listInputs[4].value,
+                };
+                request(songsApi, "POST", raw);
+            }
+        </script>
+    </body>
+</html>
