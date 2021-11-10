@@ -21,8 +21,6 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
 }
 /* Player */
 .player-container {
@@ -30,6 +28,13 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 16px 0;
+    z-index: 10;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .player-header {
     text-align: center;
@@ -38,24 +43,21 @@ a {
     font-weight: bold;
 }
 .player-status {
-    font-size: 12px;
+    font-size: 10px;
 }
 .player-music-name {
-    font-size: 24px;
+    font-size: 20px;
 }
 .player-banner {
-    width: 60%;
+    width: 52%;
     border-radius: 50%;
     overflow: hidden;
-    animation: rotale 20s linear infinite paused;
 }
 .player-banner-bg {
     padding-top: 100%;
 }
-.player-banner.active {
-    animation-play-state: running;
-}
-@keyframes rotale {
+
+@keyframes rotate {
     from {
         transform: rotate(0deg);
     }
@@ -86,9 +88,9 @@ a {
 }
 .btn.active {
     color: #fff;
-    background-color: #972939;
+    background-color: #e94c66;
 }
-.btn-pause-play {
+.btn-toggle-play {
     --length: 60px;
     font-size: 24px;
     color: #fff;
@@ -106,16 +108,16 @@ a {
     display: none;
 }
 
-.btn-pause-play.active {
+.btn-toggle-play.active {
     color: #972939;
     background-color: transparent;
 }
 
-.btn-pause-play.active .btn-pause {
+.btn-toggle-play.active .btn-pause {
     display: unset;
 }
 
-.btn-pause-play.active .btn-play {
+.btn-toggle-play.active .btn-play {
     display: none;
 }
 
@@ -123,23 +125,24 @@ a {
     color: #fff;
     background-color: #972939;
 }
-.line {
+.progress {
     width: 100%;
     height: var(--line-height);
     margin-top: 24px;
-    border-radius: 5px;
+    border-radius: 12px;
     position: relative;
     outline: none;
     background-color: #972939;
     -webkit-appearance: none;
 }
-.line::-webkit-slider-runnable-track {
+.progress::-webkit-slider-runnable-track {
     -webkit-appearance: none;
     width: 100%;
+    border-radius: 12px;
     height: var(--line-height);
     background-color: #ffd9d9;
 }
-.line::-webkit-slider-thumb {
+.progress::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 12px;
     height: 12px;
@@ -155,9 +158,6 @@ a {
     overflow-x: auto;
     flex: 1 1 auto;
 }
-.songs-container::-webkit-scrollbar {
-    display: none;
-}
 .song {
     display: flex;
     background-color: #fff;
@@ -166,6 +166,13 @@ a {
     border-radius: 8px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.09);
     margin-bottom: 8px;
+}
+.song.active {
+    background-color: #972939;
+    color: #fff;
+}
+.song.active .song-banner {
+    animation-play-state: running;
 }
 .song-banner-container {
     width: 28%;
@@ -178,6 +185,7 @@ a {
     width: var(--length);
     height: var(--length);
     overflow: hidden;
+    animation: rotate 20s linear infinite paused;
 }
 .song-banner-bg {
     padding-top: 100%;
@@ -194,21 +202,55 @@ a {
     text-overflow: ellipsis;
     max-width: 200px;
 }
-.song-desc {
-    opacity: 0.6;
+.song-singer {
+    opacity: 0.9;
     font-size: 12px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 200px;
 }
-.song-more-info {
-    width: 15%;
+.song-options {
+    width: 16%;
     display: flex;
     -webkit-tap-highlight-color: transparent;
-}
-.song-more-info-icon {
-    margin: auto;
-    padding: 15px;
     cursor: pointer;
+    position: relative;
+}
+.option-list {
+    position: absolute;
+    right: 20%;
+    top: 70%;
+    z-index: 5;
+    background-color: #f8f8f8;
+    color: #333;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.display {
+    display: unset;
+}
+.option {
+    min-width: 170px;
+    padding: 14px 16px;
+    display: block;
+    border-radius: 5px;
+}
+.option:hover {
+    background-color: #ffcbcb;
+}
+.song-options-icon {
+    margin: auto;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+    display: none;
 }

@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Music Player</title>
         <link
+            rel="icon"
+            href="https://e7.pngegg.com/pngimages/343/781/png-clipart-compact-disc-computer-icons-encapsulated-postscript-musical-note-miscellaneous-logo-thumbnail.png"
+            type="image/x-icon"
+        />
+        <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
@@ -22,53 +27,28 @@
             <div class="player-container">
                 <div class="player-header">
                     <span class="player-status"> Now playing: </span>
-                    <h3 class="player-music-name">Em băng qua</h3>
+                    <h3 class="player-music-name">Tên bài hát</h3>
                 </div>
-                <div class="player-banner">
+                <div class="player-banner js-banner">
                     <div
                         class="player-banner-bg"
                         style="
-                            background: url(./assets/img/embangqua.jpg)
-                                no-repeat;
+                            background-image: url();
                             background-position: center;
                             background-size: cover;
                         "
                     ></div>
                 </div>
-                <div class="player-controls">
-                    <div class="btn btn-repeat js-btn-repeat">
-                        <i class="btn-icon fas fa-redo"></i>
-                    </div>
-                    <div class="btn btn-backward js-btn-backward">
-                        <i class="btn-icon fas fa-step-backward"></i>
-                    </div>
-                    <div class="btn btn-pause-play js-btn-pause-play">
-                        <i class="btn-icon btn-pause fas fa-pause"></i>
-                        <i class="btn-icon btn-play fas fa-play"></i>
-                    </div>
-                    <div class="btn btn-forward js-btn-forward">
-                        <i class="btn-icon fas fa-step-forward"></i>
-                    </div>
-                    <div class="btn btn-random js-btn-random">
-                        <i class="btn-icon fas fa-random"></i>
-                    </div>
-                    <input
-                        type="range"
-                        class="line js-seekBar"
-                        min="0"
-                        value="0"
-                        step="0.1"
-                    />
-                </div>
+                <div class="player-controls"></div>
             </div>
-            <div class="songs-container"></div>
-            <audio class="js-audio">
-                <source
-                    src="./assets/musics/EmBangQuaACVRemix-LapNguyenACV-6835183.mp3"
-                    type="audio/mp3"
-                />
-            </audio>
+            <div class="songs-container js-songs-container"></div>
+            <audio class="js-audio"></audio>
         </div>
+        <div class="overlay"></div>
         <script src="./assets/js/main.js"></script>
+        <script>
+            document.querySelector(".js-songs-container").style.marginTop =
+                document.querySelector(".player-container").offsetHeight + "px";
+        </script>
     </body>
 </html>

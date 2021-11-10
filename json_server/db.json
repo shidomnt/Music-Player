@@ -1,60 +1,74 @@
 {
-  "songs": [
-    {
-      "id": 0,
-      "name": "Em băng qua",
-      "singer": "Lập Nguyên",
-      "band": "ACV",
-      "url": "./assets/musics/EmBangQuaACVRemix-LapNguyenACV-6835183.mp3",
-      "banner-url": "./assets/img/embangqua.jpg"
-    },
-    {
-      "id": 1,
-      "name": "Ok",
-      "singer": "Binz",
-      "band": "Nhóm nhạc",
-      "url": "./assets/musics/Ok-Binz.mp3.mp3",
-      "banner-url": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/0/7/2/b/072ba9ae04687203d6f6af8e526ce631.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Hồng Nhan",
-      "singer": "Jack",
-      "band": "Nhóm nhạc",
-      "url": "https://data.chiasenhac.com/down2/2179/2/2178473-bdb99f74/128/Hong%20Nhan%20-%20Jack.mp3",
-      "banner-url": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/3/2/7/f/327f68099674128289ba8a2e98232d68.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Bạc Phận",
-      "singer": "Jack, K-ICM",
-      "band": "Nhóm nhạc",
-      "url": "https://data.chiasenhac.com/down2/2179/2/2178466-be322256/128/Bac%20Phan%20-%20Jack_%20K-ICM.mp3",
-      "banner-url": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/2/5/3/425334e6f252b8c34d74d16177a5eb9d.jpg"
-    },
-    {
-      "name": "Thằng Điên",
-      "singer": "JustaTee, Phương Ly",
-      "band": "Nhóm Nhạc",
-      "url": "./assets/musics/Thang Dien - JustaTee_ Phuong Ly.mp3",
-      "banner-url": "https://data.chiasenhac.com/data/cover/96/95803.jpg",
-      "id": 4
-    },
-    {
-      "name": "Hoa Nở Không Màu (Lofi Ver.) ",
-      "singer": "Hoài Lâm, Freak D ",
-      "band": "Nhóm Nhạc",
-      "url": "https://data.chiasenhac.com/down2/2184/2/2183431/128/Hoa%20No%20Khong%20Mau%20Lofi%20Ver__%20-%20Hoai%20Lam_.mp3",
-      "banner-url": "https://data.chiasenhac.com/data/artist_avatar/2/1942.jpg",
-      "id": 5
-    },
-    {
-      "name": "Chắc ai đó sẽ về",
-      "singer": "Sơn Tùng MTP",
-      "band": "Nhóm Nhạc",
-      "url": "./assets/musics/Chacaidoseve.mp3",
-      "banner-url": "https://data.chiasenhac.com/data/cover/87/86272.jpg",
-      "id": 6
-    }
-  ]
+    "songs": [
+        {
+            "id": 0,
+            "name": "Em băng qua",
+            "singer": "Lập Nguyên",
+            "url": "./assets/musics/EmBangQuaACVRemix-LapNguyenACV-6835183.mp3",
+            "image": "./assets/img/embangqua.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Ok",
+            "singer": "Binz",
+            "url": "./assets/musics/Ok-Binz.mp3.mp3",
+            "image": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/0/7/2/b/072ba9ae04687203d6f6af8e526ce631.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Hồng Nhan",
+            "singer": "Jack",
+            "url": "https://data.chiasenhac.com/down2/2179/2/2178473-bdb99f74/128/Hong%20Nhan%20-%20Jack.mp3",
+            "image": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/3/2/7/f/327f68099674128289ba8a2e98232d68.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Bạc Phận",
+            "singer": "Jack, K-ICM",
+            "url": "https://data.chiasenhac.com/down2/2179/2/2178466-be322256/128/Bac%20Phan%20-%20Jack_%20K-ICM.mp3",
+            "image": "https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/4/2/5/3/425334e6f252b8c34d74d16177a5eb9d.jpg"
+        },
+        {
+            "name": "Thằng Điên",
+            "singer": "JustaTee, Phương Ly",
+            "url": "./assets/musics/Thang Dien - JustaTee_ Phuong Ly.mp3",
+            "image": "https://data.chiasenhac.com/data/cover/96/95803.jpg",
+            "id": 4
+        },
+        {
+            "name": "Hoa Nở Không Màu (Lofi Ver.) ",
+            "singer": "Hoài Lâm, Freak D ",
+            "url": "https://data.chiasenhac.com/down2/2184/2/2183431/128/Hoa%20No%20Khong%20Mau%20Lofi%20Ver__%20-%20Hoai%20Lam_.mp3",
+            "image": "https://data.chiasenhac.com/data/artist_avatar/2/1942.jpg",
+            "id": 5
+        },
+        {
+            "name": "Chắc ai đó sẽ về",
+            "singer": "Sơn Tùng MTP",
+            "url": "./assets/musics/Chacaidoseve.mp3",
+            "image": "https://data.chiasenhac.com/data/cover/87/86272.jpg",
+            "id": 6
+        },
+        {
+            "name": "Hạ Còn Vương Nắng",
+            "singer": "DatKaa",
+            "url": "https://data.chiasenhac.com/down2/2164/2/2163098-c46e1827/128/Ha%20Con%20Vuong%20Nang%20-%20DatKaa.mp3",
+            "image": "https://data.chiasenhac.com/data/cover/139/138273.jpg",
+            "id": 7
+        },
+        {
+            "name": "3107 3",
+            "singer": "W/n, Duongg, Nâu, Titie",
+            "url": "https://aredir.nixcdn.com/Unv_Audio199/31073-WNDuonggNautitie-7059323.mp3",
+            "image": "https://avatar-ex-swe.nixcdn.com/song/2021/08/02/f/d/b/3/1627913895076_500.jpg",
+            "id": 8
+        },
+        {
+            "name": "Thức Giấc",
+            "singer": "Da LAB",
+            "url": "https://aredir.nixcdn.com/NhacCuaTui1018/ThucGiac-DaLAB-7048212.mp3",
+            "image": "https://avatar-ex-swe.nixcdn.com/song/2021/07/14/8/c/f/9/1626231010810_500.jpg",
+            "id": 9
+        }
+    ]
 }
